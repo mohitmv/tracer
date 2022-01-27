@@ -1,0 +1,27 @@
+{ [F @ main.cpp:41]
+ { [G @ main.cpp:27] (i =  0 , p =  10)
+  { [K @ main.cpp:18]
+   { [Q @ main.cpp:7] (s =  0)
+   }
+  }
+  { [G @ main.cpp:34] (outside if ; i =  0)
+  }
+ }
+ { [G @ main.cpp:27] (i =  1 , p =  11)
+  { [K @ main.cpp:18]
+   { [Q @ main.cpp:7] (s =  1)
+   }
+  }
+  { [G @ main.cpp:34] (outside if ; i =  1)
+  }
+ }
+ { [G @ main.cpp:27] (i =  2 , p =  12)
+  { [K @ main.cpp:18]
+   { [Q @ main.cpp:7] (s =  2)
+   }
+  }
+  { [G @ main.cpp:34] (outside if ; i =  2)
+  }
+ }
+ { [G @ main.cpp:27] (i =  3 , p =  13)
+  { [G @ main.cpp:29] (inside if ; i =  3)
