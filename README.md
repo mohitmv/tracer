@@ -6,7 +6,7 @@ much runtime overhead.
 ## How to use:
 
 Put `SCOPE_TRACE()` macro at the begining of critical functions in a complex
-project. See example1.cpp for sample usage. These tracing macro should be
+project. **See example1.cpp for sample usage.** These tracing macro should be
 placed in complex codebase at all time (i.e. not only for a temporarily period
 while debugging). These tracers don't have much overhead is tracing is disabled.
 See next section 'Overhead'.
